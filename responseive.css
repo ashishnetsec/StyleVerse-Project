@@ -1,0 +1,39 @@
+@media (max-width: 990px) {
+    .action-btn {
+        /* display: none; */
+        width: 25%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        z-index: 999;
+        background-color: white;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    #navbar-bar{
+        display: block;
+    }
+
+
+}
+
+@media (max-width: 1010px) {
+    .hero-sec{
+        flex-wrap: wrap;
+    }
+    .hs-left{
+        width: 100%;
+    }
+    .hs-right{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 600px){
+    .hsr-items{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
